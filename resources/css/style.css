@@ -248,7 +248,6 @@ footer {
 
 footer .f {
   margin-top: 16px;
-  /*margin-bottom: 32px;*/
 }
 
 .f.left span a {
@@ -266,16 +265,13 @@ footer .f {
   header{
     display: none;
   }
-
 .responsive.nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 64px;
   margin: 12px;
-
   }
-
 .responsive.nav img{
 
   width: 50px;
@@ -287,7 +283,6 @@ footer .f {
   flex-wrap: wrap;
   align-items: center;
 }
-
 .banner .banner-left {
     width: 100%;
     margin: 0;
