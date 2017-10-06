@@ -1,5 +1,4 @@
-
-body{
+body {
   width: auto;
   display: flex;
   justify-content: center;
@@ -8,231 +7,250 @@ body{
 }
 
 a:link, a:visited {
-    color: #7FB2F0;
-    text-decoration: none;
+  color: #7FB2F0;
+  text-decoration: none;
 }
 
 a:hover {
-    color: #4E7AC7;
+  color: #4E7AC7;
 }
 
-nav ul li{
+nav ul li {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0 16px 0 0;
-
 }
-nav ul li a{
+
+nav ul li a {
   font-size: 20px;
-
 }
-nav ul li a:visited {
+
+nav ul li a:visited, nav ul li a:link, .f.left span a:visited, .f.left span a:link {
   color: black;
 }
 
-
-header{
+header {
   height: 64px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: auto 24px auto 24px;
 }
-.logo img{
+
+.logo img {
   height: 50px;
   width: auto;
 }
-.header-menu li{
+
+.header-menu li {
   display: inline-flex;
   list-style: none;
   font-size: 30px;
 }
-.logo{
+
+.logo {
   display: flex;
   align-items: center;
   font-size: 32px;
 }
 
-.logo .name-2{
+.logo .name-2 {
   color: grey;
 }
-.banner{
+
+.banner {
   background-color: #D9D9D9;
   display: flex;
   align-items: center;
 }
-.banner-left img{
+
+.banner-left img {
   width: 100%;
   height: auto;
-
 }
-.banner .banner-left{
+
+.banner .banner-left {
   width: 60%;
   margin: 32px 24px;
-
 }
 
-.banner-content{
+.banner-content {
   line-height: normal;
   width: 40%;
-
 }
-.banner-content p{
+
+.banner-content p {
   font-weight: bold;
   margin: 24px 0 24px 0;
   color: #3E3F40;
 }
-.banner-button a:link{
+
+.banner-button a:link {
   color: #D9D9D9;
 }
-.banner-content h3{
+
+.banner-content h3 {
   color: #3E3F40;
   font-weight: bold;
   font-size: 60px;
 }
-.banner-button{
+
+.banner-button {
   background-color: #3E3F40;
   color: #D9D9D9;
   text-align: center;
   padding: 8px 0 8px 0;
   width: 80%;
 }
-.main-content{
+
+.main-content {
   display: flex;
   justify-content: center;
 }
-.main-content .content-left{
+
+.main-content .content-left {
   width: 60%;
   margin: 32px 24px;
 }
-.main-content .content-right{
+
+.main-content .content-right {
   display: flex;
   flex-direction: column;
   margin-top: 16px;
   width: 40%;
 }
-.Orientation-date, .our-campus, .our-guest, .Design-Prototype, .Now-and-then{
+
+.Orientation-date, .our-campus, .our-guest, .Design-Prototype, .Now-and-then {
   display: flex;
   align-items: center;
-
 }
-.content-left img{
+
+.content-left img {
   width: 100%;
   height: auto;
 }
-.content-right img{
+
+.content-right img {
   width: 35%;
   height: auto;
   margin: 16px;
 }
-.content-right .info{
+
+.content-right .info {
   width: 65%;
 }
 
-.info p{
+.info p {
   margin: 8px 0;
   color: grey;
   font-size: 18px;
 }
 
-.info h3{
+.info h3 {
   font-weight: bold;
   font-size: 20px;
 }
-.info{
+
+.info {
   line-height: 1.5;
 }
 
-.Orientation-date:hover, .our-campus:hover, .our-guest:hover, .Design-Prototype:hover, .Now-and-then:hover{
-    background-color: #D9D9D9;
+.Orientation-date:hover, .our-campus:hover, .our-guest:hover, .Design-Prototype:hover, .Now-and-then:hover {
+  background-color: #D9D9D9;
 }
 
-.quote-left h2{
+.quote-left h2 {
   font-size: 50px;
   font-weight: bold;
   margin-top: 32px;
   margin-bottom: 24px;
 }
-p{
+
+p {
   color: grey;
   line-height: 1.5;
   font-size: 18px;
 }
 
-.quote-left .author{
+.quote-left .author {
   margin-top: 32px;
   margin-bottom: 32px;
 }
 
-.courses{
+.courses {
   background-color: #D9D9D9;
 }
 
-.title{
+.title {
   display: flex;
   justify-content: center;
   margin-top: 32px;
   /*margin-bottom: 32px;*/
 }
 
-.title h1{
+.title h1 {
   font-size: 32px;
   font-weight: bold;
-
 }
-.courses-menu{
+
+.courses-menu {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin: 32px 72px;
 }
 
-.course{
+.course {
   margin: 0 32px 32px 0;
   background-color: white;
   width: 30%;
 }
 
-.course img{
+.course img {
   width: 100%;
-
 }
 
-.course-info{
+.course-info {
   margin: 16px 0 32px 16px;
 }
 
-.course-info h3{
+.course-info h3 {
   font-size: 25px;
   font-weight: 500;
   color: #3E3F40;
 }
 
-.course-info .middle{
+.course-info .middle {
   margin-top: 8px;
   margin-bottom: 8px;
 }
 
-.img.course{
+.img.course {
   width: 100%;
 }
-.content-left video{
+
+.content-left video {
   width: 100%;
 }
-.Design-Prototype{
+
+.Design-Prototype {
   margin-top: 16px;
 }
-footer{
+
+footer {
   display: flex;
   justify-content: space-between;
   margin: 32px 24px;
   border-top: 1px solid grey;
   height: 80px;
-
 }
 
-footer .f{
+footer .f {
   margin-top: 16px;
   /*margin-bottom: 32px;*/
+}
+
+.f.left span a {
+  margin-left: 20px;
 }
