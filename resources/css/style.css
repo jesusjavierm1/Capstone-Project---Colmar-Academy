@@ -260,7 +260,7 @@ footer .f {
   display: none;
 }
 
-@media screen and (max-width: 470px){
+@media screen and (max-width: 650px){
 
   header{
     display: none;
